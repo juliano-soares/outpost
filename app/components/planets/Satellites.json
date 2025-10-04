@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Moon",
+    "position": [
+      0, 
+      0,
+      0
+    ],
+    "radius": 1,
+    "orbitRadius": 1,
+    "color": "#ffffff",
+    "movement": {
+      "rotation": {
+        "speed": 0.1,
+        "direction": "clockwise",
+        "focus": "self"
+      },
+      "orbit": {
+        "focus": "Earth",
+        "speed": 0.1,
+        "direction": "clockwise"
+      }
+    }
+  }
+]

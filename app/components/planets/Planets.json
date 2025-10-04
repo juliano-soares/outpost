@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Sun",
+    "position": [0, 0, 0],
+    "radius": 0.4,
+    "color": "#FFD700",
+    "rotationSpeed": 0.05,
+    "orbitSpeed": 0,
+    "orbitRadius": 0,
+    "showLabel": true,
+    "information": {
+      "name": "Sol",
+      "description": "Estrela central do sistema solar",
+      "temperature": "~5,500°C",
+      "atmosphere": "Plasma"
+    }
+  },
+  {
+    "name": "Mercury",
+    "position": [1.2, 0, 0],
+    "radius": 0.08,
+    "color": "#8c7853",
+    "rotationSpeed": 0.1,
+    "orbitSpeed": 0.02,
+    "orbitRadius": 1.2,
+    "showLabel": true,
+    "information": {
+      "name": "Mercúrio",
+      "description": "Planeta mais próximo do Sol",
+      "temperature": "~427°C",
+      "atmosphere": "Muito rarefeita"
+    }
+  },
+  {
+    "name": "Venus",
+    "position": [1.8, 0, 0],
+    "radius": 0.12,
+    "color": "#ffc649",
+    "rotationSpeed": 0.08,
+    "orbitSpeed": 0.015,
+    "orbitRadius": 1.8,
+    "showLabel": true,
+    "information": {
+      "name": "Vênus",
+      "description": "Planeta mais quente do sistema",
+      "temperature": "~462°C",
+      "atmosphere": "Densa de CO₂"
+    }
+  },
+  {
+    "name": "Earth",
+    "position": [2.4, 0, 0],
+    "radius": 0.15,
+    "color": "#4a90e2",
+    "rotationSpeed": 0.1,
+    "orbitSpeed": 0.01,
+    "orbitRadius": 2.4,
+    "showLabel": true,
+    "information": {
+      "name": "Terra",
+      "description": "Nosso planeta natal",
+      "temperature": "~15°C",
+      "atmosphere": "Nitrogênio e Oxigênio"
+    }
+  },
+  {
+    "name": "Mars",
+    "position": [3.2, 0, 0],
+    "radius": 0.12,
+    "color": "#cd5c5c",
+    "rotationSpeed": 0.1,
+    "orbitSpeed": 0.008,
+    "orbitRadius": 3.2,
+    "showLabel": true,
+    "information": {
+      "name": "Marte",
+      "description": "Planeta vermelho",
+      "temperature": "~-65°C",
+      "atmosphere": "Dióxido de Carbono"
+    }
+  },
+  {
+    "name": "Jupiter",
+    "position": [4.5, 0, 0],
+    "radius": 0.3,
+    "color": "#d2691e",
+    "rotationSpeed": 0.15,
+    "orbitSpeed": 0.005,
+    "orbitRadius": 4.5,
+    "showLabel": true,
+    "information": {
+      "name": "Júpiter",
+      "description": "Maior planeta do sistema",
+      "temperature": "~-110°C",
+      "atmosphere": "Hidrogênio e Hélio"
+    }
+  },
+  {
+    "name": "Saturn",
+    "position": [6.0, 0, 0],
+    "radius": 0.25,
+    "color": "#fad5a5",
+    "rotationSpeed": 0.12,
+    "orbitSpeed": 0.004,
+    "orbitRadius": 6.0,
+    "showLabel": true,
+    "information": {
+      "name": "Saturno",
+      "description": "Famoso por seus anéis",
+      "temperature": "~-140°C",
+      "atmosphere": "Hidrogênio e Hélio"
+    }
+  }
+]

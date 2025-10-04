@@ -32,14 +32,14 @@ export default function Planet({
   const groupRef = useRef<THREE.Group>(null);
   
 
-  // Rotação do planeta
+  // Rotação do planeta e órbita
   useFrame((state, delta) => {
     if (meshRef.current) {
       meshRef.current.rotation.y += delta * rotationSpeed;
     }
     
     // Órbita ao redor do sol (se especificado)
-    if (groupRef.current && orbitSpeed > 0) {
+    if (groupRef.current && orbitSpeed > 0 && orbitRadius > 0) {
       groupRef.current.rotation.y += delta * orbitSpeed;
     }
   });

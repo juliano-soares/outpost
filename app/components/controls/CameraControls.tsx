@@ -239,7 +239,7 @@ export default function CameraControls({
         controls.target.copy(targetVector);
       } else {
         // Foco completo - posicionar a câmera a uma distância fixa do planeta
-        const finalPosition = targetVector.clone().add(new THREE.Vector3(0, 0, 1.5));
+        const finalPosition = targetVector.clone().add(new THREE.Vector3(0, 0, 0.8));
         camera.position.copy(finalPosition);
         camera.lookAt(targetVector);
         controls.target.copy(targetVector);
